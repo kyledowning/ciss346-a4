@@ -26,5 +26,10 @@ namespace SmpClientConsumer
         {
 
         }
+
+        private void AppPortLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

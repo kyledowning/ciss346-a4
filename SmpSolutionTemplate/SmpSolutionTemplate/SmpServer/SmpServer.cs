@@ -55,5 +55,25 @@ namespace SmpServer
         {
 
         }
+
+        private void MessagesButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StatusMessageTextbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
