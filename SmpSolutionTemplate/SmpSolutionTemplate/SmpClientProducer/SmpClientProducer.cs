@@ -16,5 +16,14 @@ namespace SmpClientProducer
         {
             InitializeComponent();
         }
+
+        // TODO: Add event listeners to handle UI events.
+        // Send messages to server over TCP connection.
+        // Retrieve a response that confirms the message production operation successful.
+
+        private void RecordServerResponse() {
+            // TODO: Record server acknoledgement.
+        }
+
     }
 }
