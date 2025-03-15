@@ -26,7 +26,7 @@ namespace SmpClientConsumer
         // Retrieve the server response and store in the MessageContent textbox.
         private void SendMessageButton_Click(object sender, EventArgs e)
         {
-            ClientConsumer.SendMessage(IPAddress, Port, MessageTextbox.Text, this);
+            FormSmpClientConsumer.SendMessage(IPAddress, Port, MessagesTextbox.Text, this);
         }
 
         // TODO:

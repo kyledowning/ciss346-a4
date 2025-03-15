@@ -50,7 +50,7 @@ namespace SmpServer
         }
 
         // Button1 is 'Start Server'. Calls Server.start().
-        private void button1_Click(object sender, EventArgs e)
+        private void StartServerButton_Click(object sender, EventArgs e)
         {
             if (!isActive) {
                 Server.Start();
@@ -107,6 +107,21 @@ namespace SmpServer
 
         // TODO: TextBox_1 -->> PriorityTextbox.
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LowRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MediumRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void HighRadioButton_CheckedChanged(object sender, EventArgs e)
         {
 
         }

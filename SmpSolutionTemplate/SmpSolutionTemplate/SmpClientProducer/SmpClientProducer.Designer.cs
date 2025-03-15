@@ -67,6 +67,7 @@
             this.ServerIPTextbox.Name = "ServerIPTextbox";
             this.ServerIPTextbox.Size = new System.Drawing.Size(167, 26);
             this.ServerIPTextbox.TabIndex = 3;
+            this.ServerIPTextbox.TextChanged += new System.EventHandler(this.ServerIPTextbox_TextChanged);
             // 
             // AppPortTextbox
             // 
@@ -74,6 +75,7 @@
             this.AppPortTextbox.Name = "AppPortTextbox";
             this.AppPortTextbox.Size = new System.Drawing.Size(134, 26);
             this.AppPortTextbox.TabIndex = 2;
+            this.AppPortTextbox.TextChanged += new System.EventHandler(this.AppPortTextbox_TextChanged);
             // 
             // AppPortLabel
             // 
@@ -128,6 +130,7 @@
             this.HighRadioButton.TabStop = true;
             this.HighRadioButton.Text = "High";
             this.HighRadioButton.UseVisualStyleBackColor = true;
+            this.HighRadioButton.CheckedChanged += new System.EventHandler(this.HighRadioButton_CheckedChanged);
             // 
             // MediumRadioButton
             // 
@@ -139,6 +142,7 @@
             this.MediumRadioButton.TabStop = true;
             this.MediumRadioButton.Text = "Medium";
             this.MediumRadioButton.UseVisualStyleBackColor = true;
+            this.MediumRadioButton.CheckedChanged += new System.EventHandler(this.MediumRadioButton_CheckedChanged);
             // 
             // LowRadioButton
             // 
@@ -150,6 +154,7 @@
             this.LowRadioButton.TabStop = true;
             this.LowRadioButton.Text = "Low";
             this.LowRadioButton.UseVisualStyleBackColor = true;
+            this.LowRadioButton.CheckedChanged += new System.EventHandler(this.LowRadioButton_CheckedChanged);
             // 
             // MessageContentLabel
             // 
@@ -167,6 +172,7 @@
             this.MessagesTextbox.Name = "MessagesTextbox";
             this.MessagesTextbox.Size = new System.Drawing.Size(445, 177);
             this.MessagesTextbox.TabIndex = 1;
+            this.MessagesTextbox.TextChanged += new System.EventHandler(this.MessagesTextbox_TextChanged);
             // 
             // SendMessageButton
             // 
@@ -176,6 +182,7 @@
             this.SendMessageButton.TabIndex = 0;
             this.SendMessageButton.Text = "Send Message";
             this.SendMessageButton.UseVisualStyleBackColor = true;
+            this.SendMessageButton.Click += new System.EventHandler(this.SendMessageButton_Click);
             // 
             // ServerResponseLabel
             // 
@@ -192,6 +199,7 @@
             this.ServerResponseTextbox.Name = "ServerResponseTextbox";
             this.ServerResponseTextbox.Size = new System.Drawing.Size(535, 26);
             this.ServerResponseTextbox.TabIndex = 6;
+            this.ServerResponseTextbox.TextChanged += new System.EventHandler(this.ServerResponseTextbox_TextChanged);
             // 
             // FormSmpClientProducer
             // 
