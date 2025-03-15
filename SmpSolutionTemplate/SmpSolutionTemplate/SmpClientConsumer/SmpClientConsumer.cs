@@ -26,7 +26,8 @@ namespace SmpClientConsumer
         // Retrieve the server response and store in the MessageContent textbox.
         private void SendMessageButton_Click(object sender, EventArgs e)
         {
-            FormSmpClientConsumer.SendMessage(IPAddress, Port, MessagesTextbox.Text, this);
+            // FormSmpClientConsumer.SendMessage(IPAddress, Port, MessagesTextbox.Text, this);
+
         }
 
         // TODO:
@@ -38,12 +39,12 @@ namespace SmpClientConsumer
         // TODO:
         private void AppPortLabel_Click(object sender, EventArgs e)
         {
-
+            Port = Int32.Parse(this.AppPortTextbox.Text);
         }
 
-        private void RecordServerResponse() {
+        private void RecordServerResponse(string serverResponse) {
             // TODO: Record the consumed message response from the server onto the form.
-
+            this.MessagesTextbox.Text = serverResponse;
         }
     }
 }

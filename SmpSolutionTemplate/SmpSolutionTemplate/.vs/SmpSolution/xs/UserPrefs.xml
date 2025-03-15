@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmpClientProducer/SmpClientProducer.cs">
+    <Files>
+      <File FileName="SmpClientProducer/Program.cs" Line="23" Column="1" />
+      <File FileName="SmpClientProducer/SmpClientProducer.cs" Line="78" Column="1" />
+      <File FileName="SmpClientProducer/SmpClientProducer.resx" Line="1" Column="1" />
+      <File FileName="SmpClientProducer/SmpClientProducer.Designer.cs" Line="1" Column="1" />
+      <File FileName="SmpLibrary/Class1.cs" Line="18" Column="1" />
+      <File FileName="SmpClientConsumer/Program.cs" Line="1" Column="1" />
+      <File FileName="SmpClientConsumer/App.config" Line="1" Column="1" />
+      <File FileName="SmpClientConsumer/SmpClientConsumer.cs" Line="30" Column="1" />
+      <File FileName="SmpServer/SmpServer.cs" Line="141" Column="1" />
+      <File FileName="SmpServer/Server.cs" Line="70" Column="1" />
+      <File FileName="SmpServer/Program.cs" Line="1" Column="1" />
+      <File FileName="SmpServer/App.config" Line="1" Column="1" />
+      <File FileName="SmpClientProducer/EmptyClass.cs" Line="41" Column="1" />
+      <File FileName="SmpClientProducer/App.config" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SmpSolution" expanded="True">
+            <Node name="SmpClientConsumer" expanded="True" />
+            <Node name="SmpClientProducer" expanded="True">
+              <Node name="SmpClientProducer.cs" expanded="True" selected="True" />
+            </Node>
+            <Node name="SmpLibrary" expanded="True" />
+            <Node name="SmpServer" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SmpServer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
