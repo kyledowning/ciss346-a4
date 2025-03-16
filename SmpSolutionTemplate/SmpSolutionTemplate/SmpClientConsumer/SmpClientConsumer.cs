@@ -12,39 +12,77 @@ namespace SmpClientConsumer
 {
     public partial class FormSmpClientConsumer : Form
     {
-        // Hardcoded IP and Port (for now).
-        string IPAddress = "127.0.0.1";
-        int Port = 50444;
-
+        string IPAddress;
+        int port;
+        int radio = -1;
+        string serverResponse;
 
         public FormSmpClientConsumer()
         {
             InitializeComponent();
         }
 
-        // Send a CONSUME message to the server, with associated priority
-        // Retrieve the server response and store in the MessageContent textbox.
         private void SendMessageButton_Click(object sender, EventArgs e)
         {
-            // FormSmpClientConsumer.SendMessage(IPAddress, Port, MessagesTextbox.Text, this);
+
+            if (radio == -1)
+            {
+                MessageBox.Show("You must select a message priority");
+                return;
+            }
+
+            try
+            {
+                this.IPAddress = ServerIPTextbox.Text;
+                this.port = Int32.Parse(AppPortTextbox.Text);
+                string message = "CONSUME " + radio;
+                MessagesTextbox.Clear();
+                ClientConsum.SendMessage(IPAddress, port, message, this);
+            }
+
+            catch (Exception)
+            {
+                ServerIPTextbox.Clear();
+                AppPortTextbox.Clear();
+                MessageBox.Show("Error: Enter a valid IP address and port number for an active server.");
+            }
 
         }
 
-        // TODO:
-        private void MessagesTextbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        // TODO:
-        private void AppPortLabel_Click(object sender, EventArgs e)
-        {
-            Port = Int32.Parse(this.AppPortTextbox.Text);
-        }
-
-        private void RecordServerResponse(string serverResponse) {
-            // TODO: Record the consumed message response from the server onto the form.
+        private void RecordServerResponse() {
             this.MessagesTextbox.Text = serverResponse;
         }
+
+        public void RecordServerResponse(string serverResponse)
+        {
+            try
+            {
+                this.serverResponse = serverResponse;
+
+                Invoke(new MethodInvoker(RecordServerResponse));
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        private void LowRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            radio = 0;
+        }
+
+        private void MediumRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            radio = 1;
+        }
+
+        private void HighRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            radio = 2;
+        }
+        
+        private void MessagesTextbox_TextChanged(object sender, EventArgs e) {}
+        private void AppPortLabel_Click(object sender, EventArgs e) {}
     }
 }

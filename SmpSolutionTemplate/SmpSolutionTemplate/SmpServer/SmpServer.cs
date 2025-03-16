@@ -8,36 +8,40 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Threading;
+using System.Collections;
 
 namespace SmpServer
 {
     public partial class FormSmpServer : Form
     {
-        // Filepath to the message store text file.
-        private string messageStorePath = "serverMessageStore.txt";
-        // Stores the active state of the server.
+        private string messageStorePath = "MS.txt";
         public bool isActive = false;
         
         public string IPAddress = "127.0.0.1";
         public int Port = 50444;
 
         private string clientMessage;
-        private int radio;
+        private int radio = -1;
 
-        // Called from Program.cs. Initalizes the Server form.
+        int lastMessagePriority;
+        string lastMessageType;
+
         public FormSmpServer()
         {
             InitializeComponent();
         }
 
-        // Called from Server.cs to handle client requests.
         public void RecordClientMessage(string clientMessage)
         {
             try
             {
+                Console.WriteLine("Recieved Client Message: " + clientMessage);
+
                 this.clientMessage = clientMessage;
 
                 Invoke(new MethodInvoker(RecordClientMessage));
+
             }
             catch (Exception)
             {
@@ -45,77 +49,125 @@ namespace SmpServer
             }
         }
 
-        // Called from RecoreClientMessage.
         private void RecordClientMessage()
         {
-            MessagesTextBox.AppendText(clientMessage + Environment.NewLine);
-            StatusMessageTextbox.Text = "Message received: " + DateTime.Now;
-        }
+            MessagesTextBox.Clear();
+            TypeTextbox.Clear();
+            lastMessageType = clientMessage.Split(' ')[0];
+            PriorityTextbox.Clear();
+            lastMessagePriority = Int32.Parse(clientMessage.Split(' ')[1]);
+            PriorityTextbox.Text = IntToPriority(lastMessagePriority);
+            TypeTextbox.Text = lastMessageType;
 
-        // Button1 is 'Start Server'. Calls Server.start().
-        private void StartServerButton_Click(object sender, EventArgs e)
-        {
-            if (!isActive) {
-                Server.Start(this);
-                isActive = true;
+            // Message consumption. Overwrite the store file with all entries except for the consumed one.
+            if (lastMessageType == "CONSUME")
+            {
+                ArrayList contents = new ArrayList();
+                string consumedMessage;
+                bool isConsumed = false;
+                using (StreamReader sr = new StreamReader(messageStorePath))
+                {
+                    string line;
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        if (line.Length > 0)
+                        {
+                            if (Int32.Parse(line.Split(' ')[0]) != lastMessagePriority)
+                            {
+                                contents.Add(line);
+                            }
+                            else if (!isConsumed)
+                            {
+                                consumedMessage = line;
+                                isConsumed = true;
+                            }
+                            else
+                            {
+                                contents.Add(line);
+                            }
+                        }
+                    }
+                }
+                using (StreamWriter sw = new StreamWriter(messageStorePath))
+                {
+                    for (int i = 0; i < contents.Count; i++)
+                    {
+                        sw.WriteLine(contents[i].ToString());
+                    }
+                }
+            } 
+            // Message production. Append to the message store.
+            else
+            {
+                string contents = clientMessage.Substring(10);
+                using (StreamWriter sw = File.AppendText(messageStorePath))
+                {
+                    sw.WriteLine(lastMessagePriority + " " +  contents + Environment.NewLine);
+                }
             }
         }
 
-        // Close the server is it is currenlty active. Should be called when exiting the application.
+        private void StartServerButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!isActive) {
+                    Console.WriteLine("Starting Server...");
+                    ThreadPool.QueueUserWorkItem(Server.Start, this);
+                    isActive = true;
+                }
+            } 
+            catch
+            {
+                MessageBox.Show("Server start error...", "Server Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
         private void ServerForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (isActive) {
+                Console.WriteLine("Ending Server");
                 Server.Stop();
                 isActive = false;
             }
         }
 
-
-        // Show messages currently in the message store. Message store is FIFO.
         private void MessagesButton_Click(object sender, EventArgs e)
         {
-            // Open a file stream to the file for reading or writing. Create is file DNE.
+            if (radio == -1)
+            {
+                MessageBox.Show("Select a Priority option");
+                return;
+            }
 
             if (!File.Exists(messageStorePath)) {
-                File.Create(messageStorePath);
+                Console.WriteLine("Creating a new file...");
+                var newFile = File.Create(messageStorePath);
+                newFile.Close();
             }
 
-            StreamReader sr = new StreamReader(messageStorePath);
-            string response = "";
-            string line = sr.ReadLine();
-            
-            while (line != null) {
-                // Each line in the Message store that is of the correct priority.
-                if (radio == 3 || Int32.Parse(line.Split(' ')[0]) == radio) {
-                    response += line;
+            // Write all messages to the textbox that match the specified priority.
+            string res = "";
+            using (StreamReader sr = new StreamReader(messageStorePath))
+            {
+                string line;
+                while ((line = sr.ReadLine()) != null) {
+                    if (line.Length > 0)
+                    {
+                        Console.WriteLine(line.Split(' ')[0].Trim());
+                        int messagePriority = Int32.Parse(line.Split(' ')[0].Trim());
+
+                        if (radio == messagePriority || radio == 3)
+                        {
+                            res = res + IntToPriority(messagePriority) + ": " + line.Substring(1) + Environment.NewLine;
+                        }
+                    }
                 }
-                line = sr.ReadLine();
             }
-            this.MessagesTextBox.Text = response;
+            Console.WriteLine(res);
+            MessagesTextBox.Text = res;
         }
 
-
-        // TODO: MessageTextBox -->> MessageTextBox. Unsure which UI element this relates to.
-        private void MessagesTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
-        // TODO: StatusMessageTextBox -->> StatusMessageTextbox. Unsure which UI element this relates to.
-        private void StatusMessageTextbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        // TODO: TextBox_1 -->> PriorityTextbox.
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
-        // Radio Button Listeners should record radio button changes in Radio variable.
         private void LowRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             radio = 0;
@@ -136,5 +188,24 @@ namespace SmpServer
             radio = 3;
         }
 
+        private void MessagesTextBox_TextChanged(object sender, EventArgs e) {}
+        private void StatusMessageTextbox_TextChanged(object sender, EventArgs e) {}
+        private void textBox1_TextChanged(object sender, EventArgs e) {}
+        private void ServerIPTextbox_TextChanged(object sender, EventArgs e) {}
+        private void TypeTextbox_TextChanged(object sender, EventArgs e) {}
+
+        private string IntToPriority(int value)
+        {
+            switch (value) {
+                case 0:
+                    return "Low";
+                case 1:
+                    return "Medium";
+                case 2:
+                    return "High";
+                default:
+                    return "None";
+            }
+        }
     }
 }

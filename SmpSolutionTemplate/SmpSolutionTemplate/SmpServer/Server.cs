@@ -18,6 +18,7 @@ namespace SmpServer
 
             try
             {
+
                 server.Start();
 
                 while (true)
