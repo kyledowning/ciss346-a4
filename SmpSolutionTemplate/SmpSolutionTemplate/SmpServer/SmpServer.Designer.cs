@@ -57,7 +57,7 @@
             // StartServerButton
             // 
             this.StartServerButton.Location = new System.Drawing.Point(8, 8);
-            this.StartServerButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.StartServerButton.Margin = new System.Windows.Forms.Padding(2);
             this.StartServerButton.Name = "StartServerButton";
             this.StartServerButton.Size = new System.Drawing.Size(110, 79);
             this.StartServerButton.TabIndex = 0;
@@ -70,7 +70,7 @@
             this.MessagesTextBox.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.MessagesTextBox.Enabled = false;
             this.MessagesTextBox.Location = new System.Drawing.Point(125, 28);
-            this.MessagesTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MessagesTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.MessagesTextBox.Multiline = true;
             this.MessagesTextBox.Name = "MessagesTextBox";
             this.MessagesTextBox.ReadOnly = true;
@@ -81,7 +81,7 @@
             // MessagesButton
             // 
             this.MessagesButton.Location = new System.Drawing.Point(215, 203);
-            this.MessagesButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MessagesButton.Margin = new System.Windows.Forms.Padding(2);
             this.MessagesButton.Name = "MessagesButton";
             this.MessagesButton.Size = new System.Drawing.Size(111, 27);
             this.MessagesButton.TabIndex = 3;
@@ -96,9 +96,9 @@
             this.MessagesGroup.Controls.Add(this.StatusMessageTextbox);
             this.MessagesGroup.Controls.Add(this.MessagesButton);
             this.MessagesGroup.Location = new System.Drawing.Point(8, 154);
-            this.MessagesGroup.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MessagesGroup.Margin = new System.Windows.Forms.Padding(2);
             this.MessagesGroup.Name = "MessagesGroup";
-            this.MessagesGroup.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MessagesGroup.Padding = new System.Windows.Forms.Padding(2);
             this.MessagesGroup.Size = new System.Drawing.Size(379, 244);
             this.MessagesGroup.TabIndex = 4;
             this.MessagesGroup.TabStop = false;
@@ -111,9 +111,9 @@
             this.PriorityGroup.Controls.Add(this.MediumRadioButton);
             this.PriorityGroup.Controls.Add(this.LowRadioButton);
             this.PriorityGroup.Location = new System.Drawing.Point(11, 28);
-            this.PriorityGroup.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PriorityGroup.Margin = new System.Windows.Forms.Padding(2);
             this.PriorityGroup.Name = "PriorityGroup";
-            this.PriorityGroup.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PriorityGroup.Padding = new System.Windows.Forms.Padding(2);
             this.PriorityGroup.Size = new System.Drawing.Size(99, 165);
             this.PriorityGroup.TabIndex = 4;
             this.PriorityGroup.TabStop = false;
@@ -123,7 +123,7 @@
             // 
             this.AllRadioButton.AutoSize = true;
             this.AllRadioButton.Location = new System.Drawing.Point(7, 133);
-            this.AllRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AllRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.AllRadioButton.Name = "AllRadioButton";
             this.AllRadioButton.Size = new System.Drawing.Size(36, 17);
             this.AllRadioButton.TabIndex = 3;
@@ -136,7 +136,7 @@
             // 
             this.HighRadioButton.AutoSize = true;
             this.HighRadioButton.Location = new System.Drawing.Point(7, 101);
-            this.HighRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.HighRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.HighRadioButton.Name = "HighRadioButton";
             this.HighRadioButton.Size = new System.Drawing.Size(47, 17);
             this.HighRadioButton.TabIndex = 2;
@@ -149,7 +149,7 @@
             // 
             this.MediumRadioButton.AutoSize = true;
             this.MediumRadioButton.Location = new System.Drawing.Point(7, 66);
-            this.MediumRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MediumRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.MediumRadioButton.Name = "MediumRadioButton";
             this.MediumRadioButton.Size = new System.Drawing.Size(62, 17);
             this.MediumRadioButton.TabIndex = 1;
@@ -162,7 +162,7 @@
             // 
             this.LowRadioButton.AutoSize = true;
             this.LowRadioButton.Location = new System.Drawing.Point(7, 35);
-            this.LowRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LowRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.LowRadioButton.Name = "LowRadioButton";
             this.LowRadioButton.Size = new System.Drawing.Size(45, 17);
             this.LowRadioButton.TabIndex = 0;
@@ -176,7 +176,7 @@
             this.StatusMessageTextbox.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.StatusMessageTextbox.Enabled = false;
             this.StatusMessageTextbox.Location = new System.Drawing.Point(4, 213);
-            this.StatusMessageTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.StatusMessageTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.StatusMessageTextbox.Name = "StatusMessageTextbox";
             this.StatusMessageTextbox.ReadOnly = true;
             this.StatusMessageTextbox.Size = new System.Drawing.Size(160, 20);
@@ -190,9 +190,9 @@
             this.LastRecievedMessageGroup.Controls.Add(this.MessagePriorityTextbox);
             this.LastRecievedMessageGroup.Controls.Add(this.MessageTypeTextbox);
             this.LastRecievedMessageGroup.Location = new System.Drawing.Point(12, 91);
-            this.LastRecievedMessageGroup.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LastRecievedMessageGroup.Margin = new System.Windows.Forms.Padding(2);
             this.LastRecievedMessageGroup.Name = "LastRecievedMessageGroup";
-            this.LastRecievedMessageGroup.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LastRecievedMessageGroup.Padding = new System.Windows.Forms.Padding(2);
             this.LastRecievedMessageGroup.Size = new System.Drawing.Size(375, 59);
             this.LastRecievedMessageGroup.TabIndex = 5;
             this.LastRecievedMessageGroup.TabStop = false;
@@ -203,7 +203,7 @@
             this.TypeTextbox.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.TypeTextbox.Enabled = false;
             this.TypeTextbox.Location = new System.Drawing.Point(92, 26);
-            this.TypeTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TypeTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.TypeTextbox.Name = "TypeTextbox";
             this.TypeTextbox.ReadOnly = true;
             this.TypeTextbox.Size = new System.Drawing.Size(83, 20);
@@ -215,7 +215,7 @@
             this.PriorityTextbox.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.PriorityTextbox.Enabled = false;
             this.PriorityTextbox.Location = new System.Drawing.Point(265, 26);
-            this.PriorityTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PriorityTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.PriorityTextbox.Name = "PriorityTextbox";
             this.PriorityTextbox.ReadOnly = true;
             this.PriorityTextbox.Size = new System.Drawing.Size(93, 20);
@@ -249,9 +249,9 @@
             this.SettingGroup.Controls.Add(this.PortTextbox);
             this.SettingGroup.Controls.Add(this.ServerIPTextbox);
             this.SettingGroup.Location = new System.Drawing.Point(133, 8);
-            this.SettingGroup.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SettingGroup.Margin = new System.Windows.Forms.Padding(2);
             this.SettingGroup.Name = "SettingGroup";
-            this.SettingGroup.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SettingGroup.Padding = new System.Windows.Forms.Padding(2);
             this.SettingGroup.Size = new System.Drawing.Size(254, 79);
             this.SettingGroup.TabIndex = 6;
             this.SettingGroup.TabStop = false;
@@ -280,16 +280,17 @@
             // PortTextbox
             // 
             this.PortTextbox.Location = new System.Drawing.Point(105, 52);
-            this.PortTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PortTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.PortTextbox.Name = "PortTextbox";
             this.PortTextbox.Size = new System.Drawing.Size(132, 20);
             this.PortTextbox.TabIndex = 1;
             this.PortTextbox.Text = "50444";
+            this.PortTextbox.TextChanged += new System.EventHandler(this.PortTextbox_TextChanged);
             // 
             // ServerIPTextbox
             // 
             this.ServerIPTextbox.Location = new System.Drawing.Point(105, 24);
-            this.ServerIPTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ServerIPTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.ServerIPTextbox.Name = "ServerIPTextbox";
             this.ServerIPTextbox.Size = new System.Drawing.Size(132, 20);
             this.ServerIPTextbox.TabIndex = 0;
@@ -305,7 +306,7 @@
             this.Controls.Add(this.LastRecievedMessageGroup);
             this.Controls.Add(this.MessagesGroup);
             this.Controls.Add(this.StartServerButton);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormSmpServer";
             this.Text = "SMP Server";
             this.MessagesGroup.ResumeLayout(false);

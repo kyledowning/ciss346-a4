@@ -48,3 +48,13 @@ C:\Users\downink4\Downloads\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTempl
 C:\Users\downink4\Downloads\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpClientConsumer\obj\Debug\SmpClientConsumer.csproj.CoreCompileInputs.cache
 C:\Users\downink4\Downloads\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpClientConsumer\obj\Debug\SmpClientConsumer.exe
 C:\Users\downink4\Downloads\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpClientConsumer\obj\Debug\SmpClientConsumer.pdb
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpClientConsumer\bin\Debug\SmpClientConsumer.exe.config
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpClientConsumer\bin\Debug\SmpClientConsumer.exe
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpClientConsumer\bin\Debug\SmpClientConsumer.pdb
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpClientConsumer\obj\Debug\SmpClientConsumer.csproj.AssemblyReference.cache
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpClientConsumer\obj\Debug\SmpClientConsumer.FormSmpClientConsumer.resources
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpClientConsumer\obj\Debug\SmpClientConsumer.Properties.Resources.resources
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpClientConsumer\obj\Debug\SmpClientConsumer.csproj.GenerateResource.cache
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpClientConsumer\obj\Debug\SmpClientConsumer.csproj.CoreCompileInputs.cache
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpClientConsumer\obj\Debug\SmpClientConsumer.exe
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpClientConsumer\obj\Debug\SmpClientConsumer.pdb

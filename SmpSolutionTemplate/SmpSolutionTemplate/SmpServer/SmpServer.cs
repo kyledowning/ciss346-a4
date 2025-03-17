@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * Names: Kyle Downing and Ethan Griffith. 
+ * Date: 3/16/25
+ * Desc: Event handelers for server GUI.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,13 +32,14 @@ namespace SmpServer
 
         int lastMessagePriority;
         string lastMessageType;
+        string consumedMessage;
 
         public FormSmpServer()
         {
             InitializeComponent();
         }
 
-        public void RecordClientMessage(string clientMessage)
+        public string RecordClientMessage(string clientMessage)
         {
             try
             {
@@ -42,29 +49,34 @@ namespace SmpServer
 
                 Invoke(new MethodInvoker(RecordClientMessage));
 
+                if (this.clientMessage.Split(' ')[0] == "GET")
+                {
+                    return consumedMessage.Substring(2);
+                } else if (this.clientMessage.Split(' ')[0] == "PUT")
+                {
+                    return "Received message: \"" + clientMessage.Substring(11) + "\": " + DateTime.Now;
+                }
+                return "Received message: " + DateTime.Now;
             }
             catch (Exception)
             {
-
+                return null;
             }
         }
 
         private void RecordClientMessage()
         {
-            MessagesTextBox.Clear();
             TypeTextbox.Clear();
             lastMessageType = clientMessage.Split(' ')[0];
             PriorityTextbox.Clear();
             lastMessagePriority = Int32.Parse(clientMessage.Split(' ')[1]);
             PriorityTextbox.Text = IntToPriority(lastMessagePriority);
             TypeTextbox.Text = lastMessageType;
-
-            // Message consumption. Overwrite the store file with all entries except for the consumed one.
-            if (lastMessageType == "CONSUME")
+            if (lastMessageType == "GET")
             {
                 ArrayList contents = new ArrayList();
-                string consumedMessage;
                 bool isConsumed = false;
+                consumedMessage = "";
                 using (StreamReader sr = new StreamReader(messageStorePath))
                 {
                     string line;
@@ -87,6 +99,10 @@ namespace SmpServer
                             }
                         }
                     }
+                    if (consumedMessage.Length == 0)
+                    {
+                        consumedMessage = "   <No messages with " + IntToPriority(lastMessagePriority) + " priority.>";
+                    }
                 }
                 using (StreamWriter sw = new StreamWriter(messageStorePath))
                 {
@@ -96,7 +112,6 @@ namespace SmpServer
                     }
                 }
             } 
-            // Message production. Append to the message store.
             else
             {
                 string contents = clientMessage.Substring(10);
@@ -112,9 +127,15 @@ namespace SmpServer
             try
             {
                 if (!isActive) {
+                    this.IPAddress = ServerIPTextbox.Text;
+                    this.Port = Int32.Parse(PortTextbox.Text);
                     Console.WriteLine("Starting Server...");
                     ThreadPool.QueueUserWorkItem(Server.Start, this);
                     isActive = true;
+                }
+                else
+                {
+                    MessageBox.Show("Server is already active.");
                 }
             } 
             catch
@@ -188,7 +209,8 @@ namespace SmpServer
             radio = 3;
         }
 
-        private void MessagesTextBox_TextChanged(object sender, EventArgs e) {}
+        private void MessagesTextBox_TextChanged(object sender, EventArgs e) {
+        }
         private void StatusMessageTextbox_TextChanged(object sender, EventArgs e) {}
         private void textBox1_TextChanged(object sender, EventArgs e) {}
         private void ServerIPTextbox_TextChanged(object sender, EventArgs e) {}
@@ -207,5 +229,7 @@ namespace SmpServer
                     return "None";
             }
         }
+
+        private void PortTextbox_TextChanged(object sender, EventArgs e) { }
     }
 }

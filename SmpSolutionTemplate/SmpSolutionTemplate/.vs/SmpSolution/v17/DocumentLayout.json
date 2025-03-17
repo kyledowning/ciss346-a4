@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FA970EA-C13F-4FE7-AD3F-8CE7ED2D24CE}|SmpClientConsumer\\SmpClientConsumer.csproj|c:\\users\\downink4\\downloads\\ciss346-a4-main\\ciss346-a4\\smpsolutiontemplate\\smpsolutiontemplate\\smpclientconsumer\\smpclientconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FA970EA-C13F-4FE7-AD3F-8CE7ED2D24CE}|SmpClientConsumer\\SmpClientConsumer.csproj|solutionrelative:smpclientconsumer\\smpclientconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpserver\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|solutionrelative:smpserver\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FA970EA-C13F-4FE7-AD3F-8CE7ED2D24CE}|SmpClientConsumer\\SmpClientConsumer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpclientconsumer\\smpclientconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1FA970EA-C13F-4FE7-AD3F-8CE7ED2D24CE}|SmpClientConsumer\\SmpClientConsumer.csproj|solutionrelative:smpclientconsumer\\smpclientconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|c:\\users\\downink4\\downloads\\ciss346-a4-main\\ciss346-a4\\smpsolutiontemplate\\smpsolutiontemplate\\smpserver\\smpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|solutionrelative:smpserver\\smpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|solutionrelative:smpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpserver\\smpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|solutionrelative:smpserver\\smpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81466BB-C9D3-4FC9-9F0D-7726B21D01CD}|SmpClientProducer\\SmpClientProducer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpclientproducer\\clientprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81466BB-C9D3-4FC9-9F0D-7726B21D01CD}|SmpClientProducer\\SmpClientProducer.csproj|solutionrelative:smpclientproducer\\clientprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81466BB-C9D3-4FC9-9F0D-7726B21D01CD}|SmpClientProducer\\SmpClientProducer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpclientproducer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81466BB-C9D3-4FC9-9F0D-7726B21D01CD}|SmpClientProducer\\SmpClientProducer.csproj|solutionrelative:smpclientproducer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B81466BB-C9D3-4FC9-9F0D-7726B21D01CD}|SmpClientProducer\\SmpClientProducer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpclientproducer\\smpclientproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +35,12 @@
       "RelativeMoniker": "D:0:0:{B81466BB-C9D3-4FC9-9F0D-7726B21D01CD}|SmpClientProducer\\SmpClientProducer.csproj|solutionrelative:smpclientproducer\\smpclientproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpserver\\smpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|solutionrelative:smpserver\\smpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FA970EA-C13F-4FE7-AD3F-8CE7ED2D24CE}|SmpClientConsumer\\SmpClientConsumer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpclientconsumer\\smpclientconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FA970EA-C13F-4FE7-AD3F-8CE7ED2D24CE}|SmpClientConsumer\\SmpClientConsumer.csproj|solutionrelative:smpclientconsumer\\smpclientconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpserver\\smpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|solutionrelative:smpserver\\smpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpserver\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|solutionrelative:smpserver\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FA970EA-C13F-4FE7-AD3F-8CE7ED2D24CE}|SmpClientConsumer\\SmpClientConsumer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpclientconsumer\\smpclientconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FA970EA-C13F-4FE7-AD3F-8CE7ED2D24CE}|SmpClientConsumer\\SmpClientConsumer.csproj|solutionrelative:smpclientconsumer\\smpclientconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FA970EA-C13F-4FE7-AD3F-8CE7ED2D24CE}|SmpClientConsumer\\SmpClientConsumer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpclientconsumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1FA970EA-C13F-4FE7-AD3F-8CE7ED2D24CE}|SmpClientConsumer\\SmpClientConsumer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpclientconsumer\\clientconsum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FA970EA-C13F-4FE7-AD3F-8CE7ED2D24CE}|SmpClientConsumer\\SmpClientConsumer.csproj|solutionrelative:smpclientconsumer\\clientconsum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|solutionrelative:smpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B81466BB-C9D3-4FC9-9F0D-7726B21D01CD}|SmpClientProducer\\SmpClientProducer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpclientproducer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81466BB-C9D3-4FC9-9F0D-7726B21D01CD}|SmpClientProducer\\SmpClientProducer.csproj|solutionrelative:smpclientproducer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CB9882F-109C-4436-9DDC-C7DF80CED80B}|SmpServer\\SmpServer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpserver\\smpserver.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{1FA970EA-C13F-4FE7-AD3F-8CE7ED2D24CE}|SmpClientConsumer\\SmpClientConsumer.csproj|solutionrelative:smpclientconsumer\\smpclientconsumer.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B81466BB-C9D3-4FC9-9F0D-7726B21D01CD}|SmpClientProducer\\SmpClientProducer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpclientproducer\\clientprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81466BB-C9D3-4FC9-9F0D-7726B21D01CD}|SmpClientProducer\\SmpClientProducer.csproj|solutionrelative:smpclientproducer\\clientprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B81466BB-C9D3-4FC9-9F0D-7726B21D01CD}|SmpClientProducer\\SmpClientProducer.csproj|C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\smpclientproducer\\smpclientproducer.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{B81466BB-C9D3-4FC9-9F0D-7726B21D01CD}|SmpClientProducer\\SmpClientProducer.csproj|solutionrelative:smpclientproducer\\smpclientproducer.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
@@ -93,53 +93,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\Program.cs",
+              "RelativeDocumentMoniker": "SmpClientProducer\\Program.cs",
+              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\Program.cs",
+              "RelativeToolTip": "SmpClientProducer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T02:44:32.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SmpClientProducer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\SmpClientProducer.cs",
+              "RelativeDocumentMoniker": "SmpClientProducer\\SmpClientProducer.cs",
+              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main(1)\\ciss346-a4-main\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\SmpClientProducer.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\ciss346-a4-main(1)\\ciss346-a4-main\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\SmpClientProducer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:17:36.518Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SmpServer.cs",
-              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\SmpServer.cs",
-              "RelativeDocumentMoniker": "SmpServer\\SmpServer.cs",
-              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\SmpServer.cs",
-              "RelativeToolTip": "SmpServer\\SmpServer.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAMwB0AAAAeAAAA",
+              "Title": "ClientProd.cs",
+              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\ClientProd.cs",
+              "RelativeDocumentMoniker": "SmpClientProducer\\ClientProd.cs",
+              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\ClientProd.cs",
+              "RelativeToolTip": "SmpClientProducer\\ClientProd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T20:23:49.429Z"
+              "WhenOpened": "2025-03-16T03:11:39.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SmpClientConsumer.cs",
-              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\SmpClientConsumer.cs",
-              "RelativeDocumentMoniker": "SmpClientConsumer\\SmpClientConsumer.cs",
-              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\SmpClientConsumer.cs",
-              "RelativeToolTip": "SmpClientConsumer\\SmpClientConsumer.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAIwFgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T19:48:21.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "SmpClientProducer.cs",
               "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\SmpClientProducer.cs",
               "RelativeDocumentMoniker": "SmpClientProducer\\SmpClientProducer.cs",
               "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\SmpClientProducer.cs",
               "RelativeToolTip": "SmpClientProducer\\SmpClientProducer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T03:12:18.706Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SmpClientConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\SmpClientConsumer.cs",
+              "RelativeDocumentMoniker": "SmpClientConsumer\\SmpClientConsumer.cs",
+              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\SmpClientConsumer.cs",
+              "RelativeToolTip": "SmpClientConsumer\\SmpClientConsumer.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwFoAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T19:48:21.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\Server.cs",
+              "RelativeDocumentMoniker": "SmpServer\\Server.cs",
+              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\Server.cs",
+              "RelativeToolTip": "SmpServer\\Server.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T03:16:43.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\Program.cs",
+              "RelativeDocumentMoniker": "SmpServer\\Program.cs",
+              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\Program.cs",
+              "RelativeToolTip": "SmpServer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T19:11:21.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SmpServer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\SmpServer.cs",
+              "RelativeDocumentMoniker": "SmpServer\\SmpServer.cs",
+              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\SmpServer.cs [Design]",
+              "RelativeToolTip": "SmpServer\\SmpServer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T20:21:29.801Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SmpServer.cs",
+              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\SmpServer.cs",
+              "RelativeDocumentMoniker": "SmpServer\\SmpServer.cs",
+              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\SmpServer.cs",
+              "RelativeToolTip": "SmpServer\\SmpServer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T20:23:49.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SmpClientConsumer.cs [Design]",
               "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\SmpClientConsumer.cs",
               "RelativeDocumentMoniker": "SmpClientConsumer\\SmpClientConsumer.cs",
-              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4-main\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\SmpClientConsumer.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\ciss346-a4-main\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\SmpClientConsumer.cs [Design]",
+              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main(1)\\ciss346-a4-main\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\SmpClientConsumer.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\ciss346-a4-main(1)\\ciss346-a4-main\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\SmpClientConsumer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T19:12:38.442Z"
             },
@@ -147,75 +219,29 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\Program.cs",
-              "RelativeDocumentMoniker": "SmpClientProducer\\Program.cs",
-              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\Program.cs",
-              "RelativeToolTip": "SmpClientProducer\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T02:44:32.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\Program.cs",
-              "RelativeDocumentMoniker": "SmpServer\\Program.cs",
-              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\Program.cs",
-              "RelativeToolTip": "SmpServer\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T19:11:21.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SmpClientProducer.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\SmpClientProducer.cs",
-              "RelativeDocumentMoniker": "SmpClientProducer\\SmpClientProducer.cs",
-              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4-main\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\SmpClientProducer.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\ciss346-a4-main\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\SmpClientProducer.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T19:17:36.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Server.cs",
-              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\Server.cs",
-              "RelativeDocumentMoniker": "SmpServer\\Server.cs",
-              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\Server.cs",
-              "RelativeToolTip": "SmpServer\\Server.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwEAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T03:16:43.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SmpServer.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\SmpServer.cs",
-              "RelativeDocumentMoniker": "SmpServer\\SmpServer.cs",
-              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4-main\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\SmpServer.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\ciss346-a4-main\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\SmpServer.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T20:21:29.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\Program.cs",
               "RelativeDocumentMoniker": "SmpClientConsumer\\Program.cs",
               "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\Program.cs",
               "RelativeToolTip": "SmpClientConsumer\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T02:44:37.077Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "ClientConsum.cs",
+              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\ClientConsum.cs",
+              "RelativeDocumentMoniker": "SmpClientConsumer\\ClientConsum.cs",
+              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\ClientConsum.cs",
+              "RelativeToolTip": "SmpClientConsumer\\ClientConsum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T03:45:18.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "SmpServer.Designer.cs",
               "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\SmpServer.Designer.cs",
               "RelativeDocumentMoniker": "SmpServer\\SmpServer.Designer.cs",
@@ -227,19 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClientConsum.cs",
-              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\ClientConsum.cs",
-              "RelativeDocumentMoniker": "SmpClientConsumer\\ClientConsum.cs",
-              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\ClientConsum.cs",
-              "RelativeToolTip": "SmpClientConsumer\\ClientConsum.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwCcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T03:45:18.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "SmpClientConsumer.Designer.cs",
               "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\SmpClientConsumer.Designer.cs",
               "RelativeDocumentMoniker": "SmpClientConsumer\\SmpClientConsumer.Designer.cs",
@@ -251,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MessageStore.txt",
               "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\MessageStore.txt",
               "RelativeDocumentMoniker": "SmpServer\\MessageStore.txt",
@@ -263,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpServer\\App.config",
               "RelativeDocumentMoniker": "SmpServer\\App.config",
@@ -276,18 +290,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "ClientProd.cs",
-              "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\ClientProd.cs",
-              "RelativeDocumentMoniker": "SmpClientProducer\\ClientProd.cs",
-              "ToolTip": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\ClientProd.cs",
-              "RelativeToolTip": "SmpClientProducer\\ClientProd.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T03:11:39.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "SmpClientConsumer.resx",
               "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientConsumer\\SmpClientConsumer.resx",
               "RelativeDocumentMoniker": "SmpClientConsumer\\SmpClientConsumer.resx",
@@ -298,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "SmpClientProducer.Designer.cs",
               "DocumentMoniker": "C:\\Users\\downink4\\Downloads\\ciss346-a4-main\\ciss346-a4\\SmpSolutionTemplate\\SmpSolutionTemplate\\SmpClientProducer\\SmpClientProducer.Designer.cs",
               "RelativeDocumentMoniker": "SmpClientProducer\\SmpClientProducer.Designer.cs",

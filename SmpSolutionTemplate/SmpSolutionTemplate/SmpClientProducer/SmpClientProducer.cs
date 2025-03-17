@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * Names: Kyle Downing and Ethan Griffith. 
+ * Date: 3/16/25
+ * Desc: Event handelers for client producer GUI.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -60,7 +66,7 @@ namespace SmpClientProducer
             {
                 this.IPAddress = ServerIPTextbox.Text;
                 this.port = Int32.Parse(AppPortTextbox.Text);
-                string message = "PRODUCE " + radio + " " + MessagesTextbox.Text;
+                string message = "PUT " + radio + " " + MessagesTextbox.Text;
                 ServerResponseTextbox.Clear();
                 ClientProd.SendMessage(IPAddress, port, message, this);
                 MessagesTextbox.Clear();

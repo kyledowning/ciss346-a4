@@ -1,4 +1,10 @@
-﻿using SmpServer;
+﻿/*
+ * Names: Kyle Downing and Ethan Griffith. 
+ * Date: 3/16/25
+ * Desc: Server TCP code.
+*/
+
+using SmpServer;
 using System;
 using System.IO;
 using System.Net;
@@ -14,10 +20,10 @@ namespace SmpServer
         {
             formSmpServer = obj as FormSmpServer;
 
-            server = new TcpListener(IPAddress.Parse(formSmpServer.IPAddress), formSmpServer.Port);
-
             try
             {
+
+                server = new TcpListener(IPAddress.Parse(formSmpServer.IPAddress), formSmpServer.Port);
 
                 server.Start();
 
@@ -44,9 +50,9 @@ namespace SmpServer
 
             string message = streamReader.ReadLine();
 
-            formSmpServer.RecordClientMessage(message);
+            string response = formSmpServer.RecordClientMessage(message);
 
-            string response = "Received message: " + DateTime.Now;
+            // string response = "Received message: " + DateTime.Now;
 
             SendResponse(response, networkStream);
 

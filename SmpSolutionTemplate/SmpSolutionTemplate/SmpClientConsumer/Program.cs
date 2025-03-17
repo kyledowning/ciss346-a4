@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * Names: Kyle Downing and Ethan Griffith. 
+ * Date: 3/16/25
+ * Desc: Client Consumer GUI.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;

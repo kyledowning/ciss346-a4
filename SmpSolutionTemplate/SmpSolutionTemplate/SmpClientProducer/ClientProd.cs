@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * Names: Kyle Downing and Ethan Griffith. 
+ * Date: 3/16/25
+ * Desc: Clinet Producer TCP code.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -17,16 +23,13 @@ namespace SmpClientProducer
             TcpClient client = new TcpClient(serverIpAddress, port);
             NetworkStream networkStream = client.GetStream();
 
-            //Send the SMP packet
             StreamWriter writer = new StreamWriter(networkStream);
             writer.WriteLine(message);
             writer.Flush();
 
-            //Receive SMP Response from server
             StreamReader reader = new StreamReader(networkStream);
             string serverResponse = reader.ReadLine();
 
-            //Done with the server
             reader.Close();
             writer.Close();
 

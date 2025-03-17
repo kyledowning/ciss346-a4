@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * Names: Kyle Downing and Ethan Griffith. 
+ * Date: 3/16/25
+ * Desc: Event handelers for Client Consumer GUI.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -35,7 +41,7 @@ namespace SmpClientConsumer
             {
                 this.IPAddress = ServerIPTextbox.Text;
                 this.port = Int32.Parse(AppPortTextbox.Text);
-                string message = "CONSUME " + radio;
+                string message = "GET " + radio;
                 MessagesTextbox.Clear();
                 ClientConsum.SendMessage(IPAddress, port, message, this);
             }

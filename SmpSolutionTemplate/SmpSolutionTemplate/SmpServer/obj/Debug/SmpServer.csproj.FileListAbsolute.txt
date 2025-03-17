@@ -48,3 +48,13 @@ C:\Users\downink4\Downloads\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTempl
 C:\Users\downink4\Downloads\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpServer\obj\Debug\SmpServer.csproj.CoreCompileInputs.cache
 C:\Users\downink4\Downloads\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpServer\obj\Debug\SmpServer.exe
 C:\Users\downink4\Downloads\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpServer\obj\Debug\SmpServer.pdb
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpServer\bin\Debug\SmpServer.exe.config
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpServer\bin\Debug\SmpServer.exe
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpServer\bin\Debug\SmpServer.pdb
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpServer\obj\Debug\SmpServer.csproj.AssemblyReference.cache
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpServer\obj\Debug\SmpServer.FormSmpServer.resources
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpServer\obj\Debug\SmpServer.Properties.Resources.resources
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpServer\obj\Debug\SmpServer.csproj.GenerateResource.cache
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpServer\obj\Debug\SmpServer.csproj.CoreCompileInputs.cache
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpServer\obj\Debug\SmpServer.exe
+C:\Users\downink4\Downloads\ciss346-a4-main(1)\ciss346-a4-main\SmpSolutionTemplate\SmpSolutionTemplate\SmpServer\obj\Debug\SmpServer.pdb
